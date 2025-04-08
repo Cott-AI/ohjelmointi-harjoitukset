@@ -162,13 +162,11 @@ a:any-link {
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  flex: 4;
+  flex: 1 1 auto;
   border-radius: 2px;
   border: 2px solid var(--väri-reunus);
   background-color: var(--väri-tausta);
   color: var(--väri-teksti-yläpalkki);
-  padding: var(--väli-x1);
-  margin-left: var(--väli-x2);
   max-width: 100%;
 }
 
@@ -178,13 +176,19 @@ a:any-link {
   margin-right: var(--väli-x1);
   color: var(--väri-ensisijainen);
   height: var(--ikoni);
+  position: absolute;
+  left: 10px;
 }
 
 .hakupalkki__sisältö {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  max-width: 85%;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  width: 100;
 }
 
 .hakupalkki__teksti,
@@ -197,9 +201,9 @@ a:any-link {
   background-color: var(--väri-tausta);
   min-width: 100%;
   max-width: 100%;
-  margin-right: var(--väli-x1);
   outline: none;
   color: var(--väri-valkoinen);
+  padding-left: 40px;
 }
 
 .yläpalkki__ylärivi__kirjautuminen {
