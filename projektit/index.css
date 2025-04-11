@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(opensans.ttf);
+}
+
+:root {
+  --fontti-perhe: 'Open Sans';
+  --fontti-koko-otsikko: 20px;
+  --fontti-koko-leipäteksti: 14px;
+  --ikoni: 20px;
+  --väli-x1: 4px;
+  --väli-x2: 8px;
+  --väli-x3: 16px;
+  --väli-x4: 24px;
+  --väli-x5: 32px;
+  --väri-musta: #1A1D20;
+  --väri-valkoinen: #FFFFFF;
+}
+
+body {
+  font-family: var(--fontti-perhe);
+  margin: 0;
+}
