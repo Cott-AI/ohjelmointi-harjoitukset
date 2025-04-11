@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #940d60;
+  color: #a4e0a9;
   text-decoration: none;
   cursor: pointer;
 }
@@ -111,12 +111,18 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-  border: solid 3px #495057;
+  border: solid 2px #a4e0a9;
   content: none;
   padding: var(--väli-x2);
   margin: var(--väli-x1);
   gap: var(--väli-x2);
   font-weight: bold;
+}
+
+.sähköposti:hover {
+  background: #a4e0a9;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.1s ease;
 }
 
 .sähköposti__ikoni {
@@ -132,11 +138,17 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-  border: solid 3px #495057;
+  border: solid 2px #a4e0a9;
   padding: var(--väli-x2);
   margin: var(--väli-x1);
   gap: var(--väli-x2);
   font-weight: bold;
+}
+
+.puhelinnumero:hover {
+  background: #a4e0a9;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.1s ease;
 }
 
 .puhelin__ikoni {
