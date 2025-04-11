@@ -11,6 +11,7 @@
   position: sticky;
   top: 0;
   font-weight: bold;
+  height: 60px;
 }
 
 :root {
@@ -839,6 +840,7 @@ a:any-link {
 
 .hamburger-menu {
   display: none;
+  position: relative;
 }
 
 .hamppari__ikoni {
@@ -882,9 +884,9 @@ a:any-link {
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 20px;
-    left: 20px;
+    position: absolute;
+    top: 12px;
+    left: -12px;
 
     width: 26px;
     height: 26px;
