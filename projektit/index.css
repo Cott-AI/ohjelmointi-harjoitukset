@@ -20,7 +20,7 @@
 body {
   font-family: var(--fontti-perhe);
   margin: 0;
-  background: linear-gradient(to right, #a4e0a9, #3e9932, #61d170);
+  background: linear-gradient(to right, #a4e0a9, #3e9932, #a4e0a9);
 }
 
 a {
@@ -52,12 +52,23 @@ h1 {
 .yläpalkki {
   display: flex;
   gap: var(--väli-x3);
+  align-items: center;
 }
 
 .logo {
   display: flex;
   height: 70px;
   max-height: 100%;
+}
+
+.teksti {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(to right, #cc185d, #e996cd);
+  width: 150px;
+  height: 70px;
+  border-radius: 50%;
 }
 
 .projektit {
@@ -99,7 +110,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 25px;
   border: solid 3px #495057;
   content: none;
   padding: var(--väli-x2);
@@ -120,7 +131,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 25px;
   border: solid 3px #495057;
   padding: var(--väli-x2);
   margin: var(--väli-x1);
