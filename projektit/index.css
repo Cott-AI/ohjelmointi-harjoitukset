@@ -23,6 +23,17 @@ body {
   background: linear-gradient(to right, #a4e0a9, #3e9932, #61d170);
 }
 
+a {
+  color: var(--väri-musta);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #940d60;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -38,15 +49,15 @@ h1 {
   font-weight: bold;
 }
 
-a {
-  color: var(--väri-musta);
-  text-decoration: none;
+.yläpalkki {
+  display: flex;
+  gap: var(--väli-x3);
 }
 
-a:hover {
-  color: #940d60;
-  text-decoration: none;
-  cursor: pointer;
+.logo {
+  display: flex;
+  height: 70px;
+  max-height: 100%;
 }
 
 .projektit {
