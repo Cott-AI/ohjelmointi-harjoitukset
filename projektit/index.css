@@ -20,4 +20,28 @@
 body {
   font-family: var(--fontti-perhe);
   margin: 0;
+  background: linear-gradient(to right, #a4e0a9, #49a03e, #078117);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+h1 {
+  display: flex;
+  font-weight: bold;
+  padding-right: var(--väli-x5);
+}
+
+a {
+  color: var(--väri-musta);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #940d60;
+  text-decoration: none;
+  cursor: pointer;
 }
