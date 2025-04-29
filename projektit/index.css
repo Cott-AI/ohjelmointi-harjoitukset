@@ -19,17 +19,18 @@
 
 body {
   font-family: var(--fontti-perhe);
+  color: var(--väri-valkoinen);
   margin: 0;
-  background: linear-gradient(to right, #a4e0a9, #3e9932, #a4e0a9);
+  background: linear-gradient(to right, #3a3a3a, #000000, #3a3a3a);
 }
 
 a {
-  color: var(--väri-musta);
+  color: var(--väri-valkoinen);
   text-decoration: none;
 }
 
 a:hover {
-  color: #a4e0a9;
+  color: #ff9100;
   text-decoration: none;
   cursor: pointer;
 }
@@ -65,7 +66,6 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: linear-gradient(to right, #cc185d, #e996cd);
   width: 150px;
   height: 70px;
   border-radius: 50%;
@@ -111,7 +111,7 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-  border: solid 2px #a4e0a9;
+  border: solid 2px #ffffff;
   content: none;
   padding: var(--väli-x2);
   margin: var(--väli-x1);
@@ -120,9 +120,10 @@ h1 {
 }
 
 .sähköposti:hover {
-  background: #a4e0a9;
+  background: #999999;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   transition: box-shadow 0.1s ease;
+  color: #3a3a3a;
 }
 
 .sähköposti__ikoni {
@@ -138,7 +139,7 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-  border: solid 2px #a4e0a9;
+  border: solid 2px #ffffff;
   padding: var(--väli-x2);
   margin: var(--väli-x1);
   gap: var(--väli-x2);
@@ -146,9 +147,10 @@ h1 {
 }
 
 .puhelinnumero:hover {
-  background: #a4e0a9;
+  background: #999999;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   transition: box-shadow 0.1s ease;
+  color: #3a3a3a;
 }
 
 .puhelin__ikoni {
@@ -175,12 +177,12 @@ h1 {
   }
 }
 
-.puhelin__ikoni:hover {
+.puhelinnumero:hover .puhelin__ikoni:hover {
   display: inline-block;
   animation: shake 0.5s infinite;
 }
 
-.sähköposti__ikoni:hover {
+.sähköposti:hover .sähköposti__ikoni:hover {
   display: inline-block;
   animation: shake 0.5s infinite;
 }

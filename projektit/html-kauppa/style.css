@@ -141,7 +141,7 @@ a:any-link {
   flex-direction: row;
   justify-content: center;
   background-image: linear-gradient(to right, #525252, #959697);
-  width: 100px;
+  width: 50px;
   height: 50px;
   border-radius: 50%;
 }
@@ -1080,7 +1080,7 @@ a:any-link {
   .hakupalkki__pieni__teksti,
   .hakupalkki__pieni__teksti:active,
   .hakupalkki__pieni__teksti:focus {
-    ddisplay: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     border: none;
